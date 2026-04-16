@@ -1,0 +1,12 @@
+google-site-verification: googleXXXXXXXXXX.html
+
+# INSTRUCTIONS:
+# 1. Go to https://search.google.com/search-console
+# 2. Add your property (domain or URL prefix)
+# 3. Choose "HTML file" verification method
+# 4. Google will give you a filename like: google1234abcd5678.html
+# 5. Replace this file with that filename and content
+# 6. Upload to your website root
+# 7. Click "Verify" in Google Search Console
+
+# Alternative: Use meta tag method (already added to index.html)
