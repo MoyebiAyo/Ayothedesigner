@@ -1,0 +1,26 @@
+# Python scripts (development tools)
+add-profile-images.py
+add-seo.py
+validate-seo.py
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Server/Build files
+*.log
+npm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
