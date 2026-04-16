@@ -645,6 +645,8 @@ nav {
   transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
   position: relative;
   display: block;
+  text-decoration: none;
+  color: inherit;
 }
 .project-card:hover {
   transform: translateY(-6px);
@@ -1751,20 +1753,33 @@ footer {
     <div class="project-grid" id="projectGrid">
 
       <!-- Church Designs Category -->
-      <div class="project-card reveal" data-category="church" onclick="openCategory('church')">
+      <a href="projects/church-designs.html" class="project-card reveal" data-category="church">
         <div class="project-thumb">
           <img src="projects/church-designs/impact-conference.jpg" alt="Church Designs" class="project-thumb-img">
-          <div class="project-overlay"><div class="overlay-btn">View All (16) →</div></div>
+          <div class="project-overlay"><div class="overlay-btn">View All (20) →</div></div>
         </div>
         <div class="project-info">
           <div class="project-cat">Print Design</div>
           <div class="project-title">Church Designs</div>
           <div class="project-desc">Creating visually compelling and spiritually uplifting materials for diverse church events that effectively communicate their message and reach the congregation.</div>
         </div>
-      </div>
+      </a>
+
+            <!-- Countdown Design Category -->
+      <a href="projects/countdown-design.html" class="project-card reveal" data-category="print">
+        <div class="project-thumb">
+          <img src="projects/countdown-design/nc-countdown-24.png" alt="Countdown Design" class="project-thumb-img">
+          <div class="project-overlay"><div class="overlay-btn">View All (19) →</div></div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Print Design</div>
+          <div class="project-title">Countdown Design</div>
+          <div class="project-desc">Strategic countdown campaigns building anticipation for major conferences and events with consistent branding.</div>
+        </div>
+      </a>
 
       <!-- Social Media Campaigns Category -->
-      <div class="project-card reveal reveal-delay-1" data-category="social" onclick="openCategory('social')">
+      <a href="projects/social-media-campaigns.html" class="project-card reveal reveal-delay-1" data-category="social">
         <div class="project-thumb">
           <img src="projects/social-media-campaigns/leadership-newspaper.jpg" alt="Social Media Campaigns" class="project-thumb-img">
           <div class="project-overlay"><div class="overlay-btn">View All (8) →</div></div>
@@ -1774,10 +1789,10 @@ footer {
           <div class="project-title">Social Media Campaigns</div>
           <div class="project-desc">Brands and initiatives needed compelling social media visuals that cut through the noise, effectively communicated complex value propositions, and drove engagement.</div>
         </div>
-      </div>
+      </a>
 
       <!-- Weddings & Birthdays Category -->
-      <div class="project-card reveal reveal-delay-2" data-category="print" onclick="openCategory('weddings')">
+      <a href="projects/weddings-birthdays.html" class="project-card reveal reveal-delay-2" data-category="print">
         <div class="project-thumb">
           <img src="projects/weddings-birthdays/wedding-flyer.jpg" alt="Weddings & Birthdays" class="project-thumb-img">
           <div class="project-overlay"><div class="overlay-btn">View All (4) →</div></div>
@@ -1787,10 +1802,10 @@ footer {
           <div class="project-title">Weddings & Birthdays</div>
           <div class="project-desc">Personal milestones like weddings and birthdays require designs that are not only informative but also deeply personal, capturing the unique joy and personality of the individuals involved.</div>
         </div>
-      </div>
+      </a>
 
       <!-- T-Shirt Design & Mockups Category -->
-      <div class="project-card reveal" data-category="branding" onclick="openCategory('tshirts')">
+      <a href="projects/tshirt-designs-mockups.html" class="project-card reveal" data-category="branding">
         <div class="project-thumb">
           <img src="projects/tshirt-designs/shortsleeve-mockup.jpg" alt="T-Shirt Design & Mockups" class="project-thumb-img">
           <div class="project-overlay"><div class="overlay-btn">View All (5) →</div></div>
@@ -1800,10 +1815,10 @@ footer {
           <div class="project-title">T-Shirt Design & Mockups</div>
           <div class="project-desc">Visualizing how brand logos and event themes translate onto apparel is crucial for client approval and production quality control.</div>
         </div>
-      </div>
+      </a>
 
       <!-- Business Flyers Category -->
-      <div class="project-card reveal reveal-delay-1" data-category="print" onclick="openCategory('business')">
+      <a href="projects/business-flyers.html" class="project-card reveal reveal-delay-1" data-category="print">
         <div class="project-thumb">
           <img src="projects/business-flyers/what-we-do.jpg" alt="Business Flyers" class="project-thumb-img">
           <div class="project-overlay"><div class="overlay-btn">View All (4) →</div></div>
@@ -1813,10 +1828,10 @@ footer {
           <div class="project-title">Business Flyers</div>
           <div class="project-desc">Businesses often struggle to present their diverse range of services in a clear, professional, and visually engaging manner that converts interest into action.</div>
         </div>
-      </div>
+      </a>
 
       <!-- Branding & Identity Category -->
-      <div class="project-card reveal reveal-delay-2" data-category="branding" onclick="openCategory('branding')">
+      <a href="projects/branding-identity.html" class="project-card reveal reveal-delay-2" data-category="branding">
         <div class="project-thumb">
           <img src="projects/branding/mouse-tech-mockup.png" alt="Branding & Identity" class="project-thumb-img">
           <div class="project-overlay"><div class="overlay-btn">View All (4) →</div></div>
@@ -1826,7 +1841,7 @@ footer {
           <div class="project-title">Branding & Identity</div>
           <div class="project-desc">Developing comprehensive brand identities that transcend simple logos, creating cohesive visual systems that communicate core values and professional excellence.</div>
         </div>
-      </div>
+      </a>
 
     </div>
   </div>
@@ -2155,6 +2170,10 @@ const projects = [
   {
     image: 'projects/church-designs/impact-conference.jpg',
     images: [
+      'projects/church-designs/faith-sunday-glor.png',
+      'projects/church-designs/limitless-main.png',
+      'projects/church-designs/NDPFAP.png',
+      'projects/church-designs/rural-rugged.png',
       'projects/church-designs/impact-conference.jpg',
       'projects/church-designs/help-from-above.jpg',
       'projects/church-designs/power-in-his-name.jpg',
@@ -2178,6 +2197,37 @@ const projects = [
     desc: 'Creating visually compelling and spiritually uplifting materials for diverse church events that effectively communicate their message and reach the congregation.',
     long: 'Designed a series of vibrant and impactful flyers and promotional materials, using bold typography, symbolic imagery, and dynamic layouts to capture the essence of each event. Enhanced event awareness and participation, with highly positive feedback from the congregation and leadership on the new visual direction.',
     client: 'Various Ministries',
+    year: '2024'
+  },
+  {
+    image: 'projects/countdown-design/nc-countdown-24.png',
+    images: [
+      'projects/countdown-design/national-conference-2026-countdown-25.png',
+      'projects/countdown-design/national-conference-2026-countdown-26.png',
+      'projects/countdown-design/national-conference-2026-countdown-27.png',
+      'projects/countdown-design/limitless-countdown-1.png',
+      'projects/countdown-design/limitless-countdown-2.png',
+      'projects/countdown-design/limitless-countdown-3.png',
+      'projects/countdown-design/limitless-countdown-4.png',
+      'projects/countdown-design/limitless-countdown-5.png',
+      'projects/countdown-design/limitless-countdown-today.png',
+      'projects/countdown-design/nc-countdown-2.png',
+      'projects/countdown-design/nc-countdown-5.png',
+      'projects/countdown-design/nc-countdown-6.png',
+      'projects/countdown-design/nc-countdown-7.png',
+      'projects/countdown-design/nc-countdown-8.png',
+      'projects/countdown-design/nc-countdown-16.png',
+      'projects/countdown-design/nc-countdown-20.png',
+      'projects/countdown-design/nc-countdown-22.png',
+      'projects/countdown-design/nc-countdown-23.png',
+      'projects/countdown-design/nc-countdown-24.png'
+    ],
+    title: 'Countdown Design',
+    category: 'Print Design',
+    tags: ['Print Design', 'Countdown', 'Events', 'Conferences'],
+    desc: 'Strategic countdown campaigns building anticipation for major conferences and events with consistent branding.',
+    long: 'Designed a comprehensive countdown series for the National Conference 2026 and Limitless events, creating daily social media assets that maintained brand consistency while building excitement. The campaign saw increasing engagement as the event approached, with each countdown graphic becoming more urgent and visually compelling.',
+    client: 'National Conference Committee',
     year: '2024'
   },
   {
