@@ -1,11 +1,11 @@
 # robots.txt for Ayodele Portfolio
-# https://ayo.mousetech.com/robots.txt
+# https://ayo.mousetech.app/robots.txt
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://ayo.mousetech.com/sitemap.xml
+Sitemap: https://ayo.mousetech.app/sitemap.xml
 
 # Crawl-delay for polite crawling (optional)
 Crawl-delay: 1
