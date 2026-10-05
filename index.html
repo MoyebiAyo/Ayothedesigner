@@ -51,7 +51,7 @@
 <link rel="dns-prefetch" href="https://wa.me">
 
 <!-- Preload LCP image -->
-<link rel="preload" as="image" href="assets/images/profile.jpg" fetchpriority="high">
+<link rel="preload" as="image" href="assets/images/profile.webp" fetchpriority="high">
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="assets/favicon.png">
@@ -75,7 +75,7 @@ html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
 section{scroll-margin-top:70px}
 *,*::before,*::after{box-sizing:inherit;margin:0;padding:0}
 body{background:var(--purple);color:var(--pink);font-family:var(--body);overflow-x:hidden;-webkit-font-smoothing:antialiased}
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:inherit}
 :focus-visible{outline:2px solid var(--candy);outline-offset:3px;border-radius:6px}
 
@@ -144,7 +144,7 @@ a{color:inherit}
 .back{transform:rotateY(180deg)}
 .inner{height:100%;border-radius:calc(var(--cw)*.05);overflow:hidden;position:relative;color:#1d1422;font-size:calc(var(--cw)*.036)}
 .front .inner{background:#f8cfe0}
-.front .photo{height:58%;background:url("assets/images/profile.jpg") center 12%/cover no-repeat;border-radius:calc(var(--cw)*.04) calc(var(--cw)*.04) 0 0}
+.front .photo{height:58%;background:url("assets/images/profile.webp") center 12%/cover no-repeat;border-radius:calc(var(--cw)*.04) calc(var(--cw)*.04) 0 0}
 .front .meta{display:grid;grid-template-columns:1.25fr 1px 1fr;gap:0 calc(var(--cw)*.04);padding:calc(var(--cw)*.045) calc(var(--cw)*.05) 0;height:42%}
 .front .rule{background:rgba(29,20,34,.35);margin:6% 0 14%}
 .name{font-family:var(--display);font-weight:800;font-size:calc(var(--cw)*.115);letter-spacing:-.03em;line-height:.95}
@@ -248,7 +248,7 @@ a{color:inherit}
 @media (max-width:900px){.devsec .wrap{grid-template-columns:1fr}.codecard{width:100%}}
 
 /* ---------- horizontal work gallery (pink) ---------- */
-.hwork{position:relative;background:var(--pink);--soft:#6e3a57}
+.hwork{position:relative;background:var(--pink);--soft:#6e3a57;min-height:100vh;min-height:100svh}
 .hsticky{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;display:flex;flex-direction:column;justify-content:center;
   padding-top:clamp(110px,14vh,150px);padding-bottom:clamp(40px,7vh,80px)}
 .hwork .shead{flex-direction:column;align-items:center;text-align:center;gap:14px;display:flex;margin-bottom:clamp(36px,6vh,64px)}
@@ -521,7 +521,7 @@ a{color:inherit}
 <section class="about" id="about">
   <div class="wrap">
     <div class="collage">
-      <img class="c1" data-par="-0.05" src="assets/images/profile-bw.jpg" width="816" height="1232" alt="Ayodele, black and white portrait" loading="lazy" decoding="async">
+      <img class="c1" data-par="-0.05" src="assets/images/profile-bw.webp" width="816" height="1232" alt="Ayodele, black and white portrait" loading="lazy" decoding="async">
       <img class="c2" data-par="0.07" src="assets/images/design-templates-promo.webp" width="750" height="900" alt="600+ premium design templates promo — church, business and birthday flyers, logos and fonts" loading="lazy" decoding="async">
       <span class="note" data-anim="scale" style="--d:.4s">hi, I'm Ayodele</span>
     </div>
@@ -566,14 +566,14 @@ a{color:inherit}
     <div class="wrap shead"><h2 class="split">Selected work</h2><p data-anim="up">Branding, print, social media and church campaigns — open any piece to see the full collection.</p></div>
     <div class="hview">
     <div class="htrack" id="track">
-      <a class="wk" href="projects/church-designs.html" aria-label="Church Designs — view all 32 designs"><div class="frame"><span class="tag">32 designs</span><img src="projects/church-designs/impact-conference.jpg" width="736" height="1104" alt="Impact Conference church flyer" decoding="async"></div><div class="meta"><b>Church Designs</b><span>Print design</span></div></a>
-      <a class="wk" href="projects/countdown-design.html"><div class="frame"><span class="tag">23 designs</span><img src="projects/countdown-design/nc-countdown-24.png" width="2000" height="2400" alt="National Conference countdown graphic" decoding="async"></div><div class="meta"><b>Countdown Design</b><span>Print design</span></div></a>
-      <a class="wk" href="projects/social-media-campaigns.html"><div class="frame"><span class="tag">11 designs</span><img src="projects/social-media-campaigns/leadership-newspaper.jpg" width="736" height="736" alt="Leadership newspaper social campaign" decoding="async"></div><div class="meta"><b>Social Media Campaigns</b><span>Social media</span></div></a>
+      <a class="wk" href="projects/church-designs.html" aria-label="Church Designs — view all 32 designs"><div class="frame"><span class="tag">32 designs</span><img src="projects/church-designs/impact-conference.webp" width="736" height="1104" alt="Impact Conference church flyer" decoding="async"></div><div class="meta"><b>Church Designs</b><span>Print design</span></div></a>
+      <a class="wk" href="projects/countdown-design.html"><div class="frame"><span class="tag">23 designs</span><img src="projects/countdown-design/nc-countdown-24.webp" width="1333" height="1600" alt="National Conference countdown graphic" decoding="async"></div><div class="meta"><b>Countdown Design</b><span>Print design</span></div></a>
+      <a class="wk" href="projects/social-media-campaigns.html"><div class="frame"><span class="tag">11 designs</span><img src="projects/social-media-campaigns/leadership-newspaper.webp" width="736" height="736" alt="Leadership newspaper social campaign" decoding="async"></div><div class="meta"><b>Social Media Campaigns</b><span>Social media</span></div></a>
       <a class="wk" href="projects/new-month-designs.html" aria-label="New Month Designs — view all 7 designs"><div class="frame"><span class="tag">7 designs</span><img src="projects/new-month-designs/september-gcm.webp" width="1600" height="1600" alt="September new month welcome design" decoding="async"></div><div class="meta"><b>New Month Designs</b><span>Social media</span></div></a>
-      <a class="wk" href="projects/weddings-birthdays.html"><div class="frame"><span class="tag">8 designs</span><img src="projects/weddings-birthdays/wedding-flyer.jpg" width="735" height="858" alt="Wedding celebration flyer" decoding="async"></div><div class="meta"><b>Weddings &amp; Birthdays</b><span>Print design</span></div></a>
-      <a class="wk" href="projects/tshirt-designs-mockups.html"><div class="frame"><span class="tag">8 designs</span><img src="projects/tshirt-designs/shortsleeve-mockup.jpg" width="1400" height="1680" alt="T-shirt design mockup" decoding="async"></div><div class="meta"><b>T-Shirt &amp; Mockups</b><span>Branding</span></div></a>
-      <a class="wk" href="projects/business-flyers.html"><div class="frame"><span class="tag">4 designs</span><img src="projects/business-flyers/what-we-do.jpg" width="1400" height="1508" alt="Business services flyer" decoding="async"></div><div class="meta"><b>Business Flyers</b><span>Print design</span></div></a>
-      <a class="wk" href="projects/branding-identity.html"><div class="frame"><span class="tag">4 designs</span><img src="projects/branding/mouse-tech-mockup.png" width="2000" height="2000" alt="MouseTech branding mockup" decoding="async"></div><div class="meta"><b>Branding &amp; Identity</b><span>Branding</span></div></a>
+      <a class="wk" href="projects/weddings-birthdays.html"><div class="frame"><span class="tag">8 designs</span><img src="projects/weddings-birthdays/wedding-flyer.webp" width="735" height="858" alt="Wedding celebration flyer" decoding="async"></div><div class="meta"><b>Weddings &amp; Birthdays</b><span>Print design</span></div></a>
+      <a class="wk" href="projects/tshirt-designs-mockups.html"><div class="frame"><span class="tag">8 designs</span><img src="projects/tshirt-designs/shortsleeve-mockup.webp" width="1333" height="1600" alt="T-shirt design mockup" decoding="async"></div><div class="meta"><b>T-Shirt &amp; Mockups</b><span>Branding</span></div></a>
+      <a class="wk" href="projects/business-flyers.html"><div class="frame"><span class="tag">4 designs</span><img src="projects/business-flyers/what-we-do.webp" width="1400" height="1508" alt="Business services flyer" decoding="async"></div><div class="meta"><b>Business Flyers</b><span>Print design</span></div></a>
+      <a class="wk" href="projects/branding-identity.html"><div class="frame"><span class="tag">4 designs</span><img src="projects/branding/mouse-tech-mockup.webp" width="1600" height="1600" alt="MouseTech branding mockup" decoding="async"></div><div class="meta"><b>Branding &amp; Identity</b><span>Branding</span></div></a>
     </div>
     </div>
     <div class="hbar"><i id="hbar"></i></div>
@@ -584,7 +584,7 @@ a{color:inherit}
 <!-- ============ ABOUT ME (purple) ============ -->
 <section class="aboutme" aria-label="About me">
   <div class="wrap">
-    <div class="pic" data-reveal><img src="assets/images/profile.jpg" width="816" height="1232" alt="Ayodele, creative designer" loading="lazy" decoding="async"></div>
+    <div class="pic" data-reveal><img src="assets/images/profile.webp" width="816" height="1232" alt="Ayodele, creative designer" loading="lazy" decoding="async"></div>
     <div>
       <h2 class="split">About me</h2>
       <div class="press" data-anim="up">✦ 8+ years crafting visual stories</div>
@@ -683,6 +683,9 @@ a{color:inherit}
 
 <script>
 (function(){
+  // reloads always start fresh at the top — restoring a deep scroll mid-build
+  // used to fire every reveal at once and make the layout visibly fall apart
+  if('scrollRestoration' in history) history.scrollRestoration='manual';
   const rig=document.getElementById('rig'), card=document.getElementById('card');
   const lines=[...document.querySelectorAll('.words span i')];
   const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
