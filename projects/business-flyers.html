@@ -1,96 +1,261 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Business Flyers - Professional service presentation materials that convert interest into action.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Business Flyers - Professional service presentation material.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#1c0b2e">
 <title>Business Flyers | Ayodele Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="canonical" href="https://ayo.mousetech.app/projects/business-flyers.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ayo.mousetech.app/projects/business-flyers.html">
+<meta property="og:title" content="Business Flyers | Ayodele Portfolio">
+<meta property="og:description" content="Business Flyers - Professional service presentation material.">
+<meta property="og:image" content="https://ayo.mousetech.app/assets/images/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Ayodele Portfolio">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Business Flyers by Ayodele">
+<meta name="twitter:description" content="Business Flyers - Professional service presentation material.">
+<meta name="twitter:image" content="https://ayo.mousetech.app/assets/images/og-cover.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Business Flyers",
+  "description": "Business Flyers - Professional service presentation material.",
+  "url": "https://ayo.mousetech.app/projects/business-flyers.html",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Ayodele Portfolio",
+    "url": "https://ayo.mousetech.app/"
+  },
+  "about": {
+    "@type": "Person",
+    "name": "Ayodele",
+    "jobTitle": "Graphic Designer & Brand Strategist",
+    "url": "https://ayo.mousetech.app/"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://ayo.mousetech.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Work",
+        "item": "https://ayo.mousetech.app/#work"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Business Flyers",
+        "item": "https://ayo.mousetech.app/projects/business-flyers.html"
+      }
+    ]
+  }
+}
+</script>
+
 <style>
-:root { --accent: #FF5C35; --accent-2: #FFB347; --accent-glow: rgba(255, 92, 53, 0.25); --bg: #0A0A0A; --bg-2: #111111; --bg-3: #1A1A1A; --bg-card: #141414; --border: rgba(255,255,255,0.07); --text: #F0EDE8; --text-muted: #888880; --text-subtle: #555550; --nav-bg: rgba(10,10,10,0.85); }
-[data-theme="light"] { --bg: #F5F2EE; --bg-2: #EDE9E3; --bg-3: #E5E0D8; --bg-card: #FFFFFF; --border: rgba(0,0,0,0.08); --text: #1A1715; --text-muted: #6B6560; --text-subtle: #A8A29A; --nav-bg: rgba(245,242,238,0.9); }
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; font-size: 16px; overflow-x: hidden; max-width: 100vw; }
-body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; overflow-x: hidden; max-width: 100vw; transition: background 0.4s ease, color 0.4s ease; }
-img { max-width: 100%; display: block; } a { text-decoration: none; color: inherit; } button { cursor: pointer; border: none; background: none; font-family: inherit; }
-::-webkit-scrollbar { width: 4px; } ::-webkit-scrollbar-track { background: var(--bg); } ::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 2px; }
-h1, h2, h3, h4, h5 { font-family: 'Syne', sans-serif; line-height: 1.1; }
-.container { max-width: 1240px; margin: 0 auto; padding: 0 2rem; }
-nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: var(--nav-bg); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); transition: background 0.4s ease; }
-.nav-inner { display: flex; align-items: center; justify-content: space-between; height: 68px; max-width: 1240px; margin: 0 auto; padding: 0 2rem; }
-.nav-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.4rem; letter-spacing: -0.03em; color: var(--text); }
-.nav-logo span { color: var(--accent); }
-.nav-links { display: flex; align-items: center; gap: 2rem; list-style: none; }
-.nav-links a { font-size: 0.875rem; font-weight: 500; color: var(--text-muted); transition: color 0.2s; position: relative; }
-.nav-links a::after { content: ''; position: absolute; bottom: -3px; left: 0; width: 0; height: 1px; background: var(--accent); transition: width 0.3s ease; }
-.nav-links a:hover { color: var(--text); } .nav-links a:hover::after { width: 100%; }
-.nav-actions { display: flex; align-items: center; gap: 1rem; }
-.theme-toggle { width: 44px; height: 24px; background: var(--bg-3); border-radius: 12px; border: 1px solid var(--border); position: relative; cursor: pointer; transition: background 0.3s; }
-.theme-toggle::after { content: ''; position: absolute; top: 3px; left: 3px; width: 16px; height: 16px; background: var(--accent); border-radius: 50%; transition: transform 0.3s ease; }
-[data-theme="light"] .theme-toggle::after { transform: translateX(20px); }
-.project-header { padding-top: 120px; padding-bottom: 3rem; min-height: auto; }
-.back-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 2rem; transition: color 0.2s; }
-.back-link:hover { color: var(--accent); } .back-link svg { width: 16px; height: 16px; }
-.project-title { font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; margin-bottom: 1rem; color: var(--text); word-wrap: break-word; overflow-wrap: break-word; max-width: 100%; }
-.project-title span { color: var(--accent); }
-.project-desc { font-size: 1.1rem; color: var(--text-muted); max-width: 600px; line-height: 1.7; margin-bottom: 3rem; }
-.gallery-section { padding: 2rem 0 6rem; }
-.gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 2rem; }
-.gallery-item { background: var(--bg-card); border-radius: 16px; overflow: hidden; border: 1px solid var(--border); transition: transform 0.3s ease, box-shadow 0.3s ease; cursor: pointer; }
-.gallery-item:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.2); }
-.gallery-item img { width: 100%; aspect-ratio: 4/3; object-fit: cover; transition: transform 0.5s ease; }
-.gallery-item:hover img { transform: scale(1.05); }
-.gallery-item-content { padding: 1.5rem; background: linear-gradient(to bottom, var(--bg-card), var(--bg-2)); }
-.gallery-item h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 0.75rem; color: var(--text); letter-spacing: -0.01em; }
-.gallery-item p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; font-style: italic; }
-.project-nav { padding: 3rem 0; border-top: 1px solid var(--border); }
-.project-nav-inner { display: flex; justify-content: space-between; align-items: center; }
-.nav-prev, .nav-next { display: flex; align-items: center; gap: 1rem; padding: 1rem 1.5rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s ease; }
-.nav-prev:hover, .nav-next:hover { border-color: var(--accent); background: var(--bg-2); }
-.nav-prev svg, .nav-next svg { width: 20px; height: 20px; color: var(--accent); }
-.nav-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; }
-.nav-title { font-family: 'Syne', sans-serif; font-weight: 600; font-size: 1rem; color: var(--text); }
-.lightbox-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.95); z-index: 2000; display: none; align-items: center; justify-content: center; padding: 2rem; }
-.lightbox-overlay.open { display: flex; }
-.lightbox-img { max-width: 90%; max-height: 85vh; object-fit: contain; border-radius: 8px; }
-.lightbox-close { position: absolute; top: 2rem; right: 2rem; width: 44px; height: 44px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; cursor: pointer; transition: background 0.2s; }
-.lightbox-close:hover { background: rgba(255,255,255,0.2); }
-.lightbox-caption { position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%); color: white; font-size: 1.1rem; text-align: center; }
-footer { background: var(--bg-2); border-top: 1px solid var(--border); padding: 3rem 0 2rem; }
-.footer-bottom { display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; color: var(--text-muted); }
-@media (max-width: 768px) { 
-  body, html { max-width: 100vw !important; overflow-x: hidden !important; }
-  .container { padding: 0 1rem !important; max-width: 100% !important; }
-  .nav-links { display: none; } 
-  .gallery-grid { grid-template-columns: 1fr; gap: 1.5rem; } 
-  .gallery-item h3, .gallery-item p { word-wrap: break-word !important; overflow-wrap: break-word !important; }
-  .project-nav-inner { flex-direction: column; gap: 1rem; } 
-  .nav-prev, .nav-next { width: 100%; justify-content: center; } 
+:root{
+  --purple:#1c0b2e; --pink:#F1F7ED; --candy:#ec6aa3; --mint:#7cc576;
+  --gut:clamp(24px,6vw,96px);
+  --display:"Unbounded","Arial Black",system-ui,sans-serif;
+  --body:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --sig:"Mrs Saint Delafield","Brush Script MT",cursive;
+  color-scheme:light; box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+html{scroll-behavior:smooth}
+section{scroll-margin-top:84px}
+*,*::before,*::after{box-sizing:inherit;margin:0;padding:0}
+body{background:var(--purple);color:var(--pink);font-family:var(--body);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--candy);outline-offset:3px;border-radius:6px}
+.wrap{width:min(1200px,100% - var(--gut)*2);margin:0 auto}
+
+/* ---------- pill header ---------- */
+.top{position:fixed;left:50%;top:calc(12px + env(safe-area-inset-top,0px));transform:translateX(-50%);z-index:30;
+  display:flex;justify-content:space-between;align-items:center;width:min(94%,760px);border-radius:99px;
+  padding:10px 10px 10px 22px;background:rgba(28,11,46,.88);
+  -webkit-backdrop-filter:blur(18px) saturate(160%);backdrop-filter:blur(18px) saturate(160%);
+  border:1px solid rgba(255,255,255,.28);box-shadow:0 10px 30px -14px rgba(28,11,46,.45);color:#fff}
+.mark{font-family:var(--display);font-weight:700;font-size:19px;letter-spacing:-.03em;text-decoration:none;display:flex;align-items:flex-start;gap:3px;color:#fff}
+.mark svg{width:11px;margin-top:2px;color:var(--pink)}
+.nav{display:flex;gap:26px;align-items:center;font-size:14px}
+.nav a{text-decoration:none;color:#fff;opacity:.75}
+.nav a:hover{opacity:1}
+.nav .pill{opacity:1;background:#fff;color:var(--purple);border-radius:99px;padding:9px 16px;display:flex;align-items:center;gap:8px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--mint)}
+@media (max-width:640px){.nav a:not(.pill){display:none}}
+
+/* ---------- hero (purple) ---------- */
+.hero{background:var(--purple);color:var(--pink);padding:clamp(120px,17vh,190px) 0 clamp(48px,7vw,90px);position:relative;overflow:hidden}
+.backp{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-size:14px;font-weight:600;
+  color:var(--pink);border:1.5px solid rgba(241,247,237,.5);border-radius:99px;padding:9px 16px;transition:background .25s,border-color .25s}
+.backp:hover{background:rgba(241,247,237,.12);border-color:var(--pink)}
+.backp svg{width:15px}
+.hero .note{font-family:var(--sig);font-size:clamp(30px,4vw,46px);color:var(--pink);opacity:.85;rotate:-4deg;display:inline-block;margin-bottom:10px}
+.hero h1{font-family:var(--display);font-weight:800;font-size:clamp(38px,7.4vw,104px);line-height:.92;letter-spacing:-.035em;margin-top:14px}
+.hero .cat{display:inline-flex;gap:8px;align-items:center;margin-top:22px;background:var(--pink);color:var(--purple);font-weight:700;font-size:14px;padding:9px 16px;border-radius:99px}
+.hero p.lead{margin-top:20px;font-size:17px;line-height:1.65;color:rgba(241,247,237,.8);max-width:56ch}
+
+/* ---------- gallery (pink) ---------- */
+.gallery{background:var(--pink);color:var(--purple);--soft:#6e3a57;padding:clamp(48px,7vw,90px) 0 clamp(90px,12vw,160px);border-top:1px solid rgba(28,11,46,.12)}
+.masonry{columns:320px 3;column-gap:clamp(18px,2.5vw,28px)}
+.pc{display:block;width:100%;text-align:left;margin:0 0 clamp(18px,2.5vw,28px);break-inside:avoid;text-decoration:none;color:inherit;padding:0}
+.pc .frame{display:block;border-radius:20px;overflow:hidden;background:#fff;box-shadow:0 24px 50px -24px rgba(40,10,50,.45);transition:transform .45s cubic-bezier(.2,.8,.2,1),box-shadow .45s}
+.pc .frame img{width:100%;height:auto;transition:transform .8s cubic-bezier(.2,.8,.2,1)}
+.pc:hover .frame{transform:translateY(-6px) rotate(-.6deg);box-shadow:0 34px 60px -24px rgba(28,11,46,.55)}
+.pc:hover .frame img{transform:scale(1.04)}
+.pc .meta{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-top:12px;padding:0 4px}
+.pc .meta b{font-size:15px;font-weight:600;letter-spacing:0}
+.pc .meta small{font-size:12px;color:var(--soft);white-space:nowrap}
+.pc .cap{display:block;margin-top:4px;padding:0 4px;font-size:13px;line-height:1.55;color:var(--soft)}
+
+/* ---------- prev / next (purple) ---------- */
+.pn{background:var(--purple);color:#fff;--line:rgba(255,255,255,.18);padding:clamp(60px,9vw,110px) 0}
+.pn .wrap{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.pn a{display:flex;flex-direction:column;gap:10px;text-decoration:none;border:1px solid var(--line);border-radius:24px;
+  padding:clamp(20px,3vw,32px);background:rgba(255,255,255,.06);transition:background .3s,transform .45s cubic-bezier(.2,.8,.2,1)}
+.pn a:hover{background:rgba(241,247,237,.14);transform:translateY(-4px)}
+.pn a.next{align-items:flex-end;text-align:right}
+.pn small{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:rgba(241,247,237,.7)}
+.pn b{font-family:var(--display);font-weight:700;font-size:clamp(18px,2.6vw,30px);letter-spacing:-.02em}
+.pn svg{width:22px;color:var(--pink)}
+@media (max-width:760px){.pn .wrap{grid-template-columns:1fr}.pn a.next{align-items:flex-start;text-align:left}}
+
+/* ---------- footer (pink) ---------- */
+.foot{background:var(--pink);color:var(--purple);padding:22px 0}
+.foot .wrap{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;opacity:.85}
+.foot a{text-decoration:none}
+
+/* ---------- lightbox ---------- */
+dialog.lb{border:0;padding:0;background:transparent;max-width:min(94vw,1000px);width:auto;max-height:94svh;overflow:visible}
+dialog.lb::backdrop{background:rgba(20,8,30,.94);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.lb .box{position:relative;display:flex;flex-direction:column;align-items:center;gap:14px}
+.lb img{max-width:94vw;max-height:80svh;width:auto;height:auto;border-radius:14px;box-shadow:0 40px 90px -30px rgba(0,0,0,.8)}
+.lb .cap{color:var(--pink);font-size:15px;text-align:center}
+.lb .close{position:fixed;top:calc(16px + env(safe-area-inset-top,0px));right:16px;width:46px;height:46px;border-radius:50%;
+  background:rgba(241,247,237,.16);border:1px solid rgba(241,247,237,.4);color:#fff;font-size:20px;display:grid;place-items:center;transition:background .25s}
+.lb .close:hover{background:rgba(241,247,237,.3)}
+
+/* whatsapp float */
+.wa{position:fixed;right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:40;
+  width:56px;height:56px;border-radius:50%;background:#25d366;display:grid;place-items:center;
+  box-shadow:0 12px 30px -8px rgba(37,211,102,.7);transition:transform .4s cubic-bezier(.3,1.6,.5,1)}
+.wa svg{width:28px}
+
+/* reveal */
+[data-anim]{transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform 1s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0s)}
+[data-anim="up"]{opacity:0;transform:translateY(40px)}
+[data-anim].in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  [data-anim]{opacity:1!important;transform:none!important;transition:none!important}
+  .pc .frame,.pc .frame img{transition:none}
 }
 </style>
 </head>
 <body>
-<nav><div class="nav-inner"><a href="../index.html" class="nav-logo">Ayo<span>.</span></a><ul class="nav-links"><li><a href="../index.html#home">Home</a></li><li><a href="../index.html#work">Work</a></li><li><a href="../index.html#about">About</a></li><li><a href="../index.html#services">Services</a></li><li><a href="../index.html#contact">Contact</a></li></ul><div class="nav-actions"><button class="theme-toggle" id="themeToggle" title="Toggle theme"></button></div></div></nav>
-<section class="project-header"><div class="container"><a href="../index.html#work" class="back-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>Back to Portfolio</a><h1 class="project-title">Business <span>Flyers</span></h1><p class="project-desc">Professional service presentation materials that convert interest into action. Businesses often struggle to present their diverse range of services in a clear, professional, and visually engaging manner.</p></div></section>
-<section class="gallery-section"><div class="container"><div class="gallery-grid">
-<div class="gallery-item" onclick="openLightbox('business-flyers/what-we-do.jpg', 'What We Do')"><img src="business-flyers/what-we-do.jpg" alt="What We Do"><div class="gallery-item-content"><h3>What We Do</h3><p>Comprehensive service showcase in single glance. Clean hierarchy transforms complex offerings into digestible visual narrative.</p></div></div>
-<div class="gallery-item" onclick="openLightbox('business-flyers/graphics-design-services.jpg', 'Graphics Design Services')"><img src="business-flyers/graphics-design-services.jpg" alt="Graphics Design Services"><div class="gallery-item-content"><h3>Graphics Design Services</h3><p>Creative expertise presented with professional confidence. Bold visuals demonstrate the very skills being offered to clients.</p></div></div>
-<div class="gallery-item" onclick="openLightbox('business-flyers/video-editing-services.jpg', 'Video Editing Services')"><img src="business-flyers/video-editing-services.jpg" alt="Video Editing Services"><div class="gallery-item-content"><h3>Video Editing Services</h3><p>Motion storytelling captured in static form. Cinematic elements hint at the dynamic content creation capabilities available.</p></div></div>
-<div class="gallery-item" onclick="openLightbox('business-flyers/convocation-food-package.jpg', 'Convocation Food Package')"><img src="business-flyers/convocation-food-package.jpg" alt="Convocation Food Package"><div class="gallery-item-content"><h3>Convocation Food Package</h3><p>Celebratory sustenance for milestone moments. Appetizing presentation meets event branding for memorable graduation catering.</p></div></div>
-</div></div></section>
-<section class="project-nav"><div class="container"><div class="project-nav-inner">
-<a href="tshirt-designs-mockups.html" class="nav-prev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg><div><div class="nav-label">Previous Project</div><div class="nav-title">T-Shirt Design & Mockups</div></div></a>
-<a href="branding-identity.html" class="nav-next"><div><div class="nav-label">Next Project</div><div class="nav-title">Branding & Identity</div></div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
-</div></div></section>
-<footer><div class="container"><div class="footer-bottom"><span>&copy; 2025 Ayodele Portfolio. All rights reserved.</span><span style="color:var(--text-subtle)">Designed & built by me</span></div></div></footer>
-<div class="lightbox-overlay" id="lightbox" onclick="closeLightbox()"><div class="lightbox-close">&times;</div><img class="lightbox-img" id="lightboxImg" src="" alt=""><div class="lightbox-caption" id="lightboxCaption"></div></div>
+
+<header class="top">
+  <a class="mark" href="../index.html" aria-label="Ayodele home">ayo<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c.6 5.2 4.8 9.4 10 10-5.2.6-9.4 4.8-10 10-.6-5.2-4.8-9.4-10-10 5.2-.6 9.4-4.8 10-10z"/></svg></a>
+  <nav class="nav">
+    <a href="../index.html#work">Work</a><a href="../index.html#about">About</a>
+    <a class="pill" href="mailto:ayo@mousetech.app?subject=Project%20enquiry"><span class="dot"></span>Contact me</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero" aria-label="Business Flyers">
+  <div class="wrap">
+    <span class="note">from the workbench of Ayodele</span><br>
+    <a class="backp" href="../index.html#work" data-anim="up"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>Back to work</a>
+    <h1 data-anim="up" style="--d:.06s">Business <span>Flyers</span></h1>
+    <div data-anim="up" style="--d:.12s"><span class="cat">✦ 4 designs · Print design</span></div>
+    <p class="lead" data-anim="up" style="--d:.18s">Modern business flyers that present services clearly and convert interest into action.</p>
+  </div>
+</section>
+
+<section class="gallery" aria-label="Gallery">
+  <div class="wrap">
+    <div class="masonry">
+      <button class="pc" type="button" data-anim="up" style="--d:0.0s" data-src="business-flyers/what-we-do.jpg" data-alt="What We Do" data-cap="What We Do">
+        <span class="frame"><img src="business-flyers/what-we-do.jpg" width="1400" height="1508" alt="What We Do" loading="lazy" decoding="async"></span>
+        <span class="meta"><b>What We Do</b><small>✦ view</small></span>
+      <span class="cap">Comprehensive service showcase in single glance. Clean hierarchy transforms complex offerings into digestible visual narrative.</span>
+      </button>
+      <button class="pc" type="button" data-anim="up" style="--d:0.04s" data-src="business-flyers/graphics-design-services.jpg" data-alt="Graphics Design Services" data-cap="Graphics Design Services">
+        <span class="frame"><img src="business-flyers/graphics-design-services.jpg" width="1400" height="1508" alt="Graphics Design Services" loading="lazy" decoding="async"></span>
+        <span class="meta"><b>Graphics Design Services</b><small>✦ view</small></span>
+      <span class="cap">Creative expertise presented with professional confidence. Bold visuals demonstrate the very skills being offered to clients.</span>
+      </button>
+      <button class="pc" type="button" data-anim="up" style="--d:0.08s" data-src="business-flyers/video-editing-services.jpg" data-alt="Video Editing Services" data-cap="Video Editing Services">
+        <span class="frame"><img src="business-flyers/video-editing-services.jpg" width="1400" height="1508" alt="Video Editing Services" loading="lazy" decoding="async"></span>
+        <span class="meta"><b>Video Editing Services</b><small>✦ view</small></span>
+      <span class="cap">Motion storytelling captured in static form. Cinematic elements hint at the dynamic content creation capabilities available.</span>
+      </button>
+      <button class="pc" type="button" data-anim="up" style="--d:0.12s" data-src="business-flyers/convocation-food-package.jpg" data-alt="Convocation Food Package" data-cap="Convocation Food Package">
+        <span class="frame"><img src="business-flyers/convocation-food-package.jpg" width="736" height="968" alt="Convocation Food Package" loading="lazy" decoding="async"></span>
+        <span class="meta"><b>Convocation Food Package</b><small>✦ view</small></span>
+      <span class="cap">Celebratory sustenance for milestone moments. Appetizing presentation meets event branding for memorable graduation catering.</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="pn" aria-label="More collections">
+  <div class="wrap">
+    <a href="tshirt-designs-mockups.html" class="prev"><small>Previous collection</small><b>T-Shirt Design & Mockups</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg></a>
+    <a href="branding-identity.html" class="next"><small>Next collection</small><b>Branding & Identity</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap"><span>© 2026 Ayodele · Designed &amp; built by me</span><a href="#top">Back to top ↑</a></div>
+</footer>
+
+<a class="wa" href="https://wa.me/2348078933943?text=Hi%20Ayodele!%20I%27d%20love%20to%20work%20with%20you%20on%20a%20design%20project." target="_blank" rel="noopener" aria-label="Chat with Ayodele on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3z"/></svg>
+</a>
+
+<dialog class="lb" id="lb" aria-label="Image viewer">
+  <div class="box">
+    <img id="lbImg" src="" alt="">
+    <div class="cap" id="lbCap"></div>
+    <button class="close" id="lbClose" aria-label="Close viewer">✕</button>
+  </div>
+</dialog>
+
 <script>
-document.getElementById('themeToggle').addEventListener('click', () => { const html = document.documentElement; html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); localStorage.setItem('theme', html.getAttribute('data-theme')); });
-const savedTheme = localStorage.getItem('theme') || 'dark'; document.documentElement.setAttribute('data-theme', savedTheme);
-function openLightbox(src, caption) { document.getElementById('lightboxImg').src = src; document.getElementById('lightboxCaption').textContent = caption; document.getElementById('lightbox').classList.add('open'); document.body.style.overflow = 'hidden'; }
-function closeLightbox() { document.getElementById('lightbox').classList.remove('open'); document.body.style.overflow = ''; }
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+(function(){
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}}),{threshold:.12,rootMargin:'0px 0px -5% 0px'});
+  document.querySelectorAll('[data-anim]').forEach(el=>io.observe(el));
+
+  const lb=document.getElementById('lb'),img=document.getElementById('lbImg'),cap=document.getElementById('lbCap');
+  document.addEventListener('click',e=>{
+    const card=e.target.closest('.pc'); if(!card) return;
+    img.src=card.dataset.src; img.alt=card.dataset.alt; cap.textContent=card.dataset.cap;
+    lb.showModal();
+  });
+  document.getElementById('lbClose').addEventListener('click',()=>lb.close());
+  lb.addEventListener('click',e=>{if(e.target===lb)lb.close();});
+})();
 </script>
 </body>
 </html>
